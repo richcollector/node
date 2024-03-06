@@ -1,0 +1,20 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "qqq": "ts-node index.ts",
+    "ddd": "ts-node decorator-example.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.7.5",
+    "graphql": "^16.7.1",
+    "pg": "^8.11.1",
+    "ts-node": "^10.9.1",
+    "typeorm": "^0.3.17"
+  }
+}
